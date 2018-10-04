@@ -1,3 +1,5 @@
+package Main
+
 import java.util.*
 
 object GenPass {
@@ -5,7 +7,7 @@ object GenPass {
     fun GenPass(n:Int):String{
         var pass=""
         for(i in 0..n){
-            pass=pass + base[Random().nextInt(base.length)]
+            pass=pass + GenPass.base[Random().nextInt(GenPass.base.length)]
         }
         return pass
     }

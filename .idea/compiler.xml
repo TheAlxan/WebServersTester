@@ -8,11 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Tomcat_WithSpring" />
         <module name="Vertx_WithoutSpring" />
-        <module name="Vertx_WithSpring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Common" target="1.5" />
+      <module name="Vertx_WithSpring" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
