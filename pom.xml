@@ -9,8 +9,9 @@
     <modules>
         <module>Tomcat_WithSpring</module>
         <module>Vertx_WithoutSpring</module>
-        <module>Vertx_WithSpring</module>
-        <module>Common</module>
+        <module>Tomcat_WithoutSpring</module>
+        <!--<module>Vertx_WithSpring</module>-->
+        <!--<module>Common</module>-->
     </modules>
     <packaging>pom</packaging>
 
